@@ -95,7 +95,7 @@ const mapping = {
   '%E7%9B%AE%E6%A0%87%E5%9C%B0%E5%9B%BE': ['pro'],
   'Paku': ['pro'],
   'Awesome%20Habits': ['premium'],
-  'Gear': ['pro', 'com.gear.app.yearly'],
+  'askai': ['pro', 'aa_3999_1y_3d0'],
   'MoneyThings': ['Premium'],
   'Anybox': ['pro'],
   'Fileball': ['filebox_pro'],
