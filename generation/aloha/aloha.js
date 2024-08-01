@@ -22,7 +22,7 @@ hostname = api.alohaprofile.com
     "has_2fa" : true,
     "id" : 89945,
     "email_verified" : true,
-    "_end_of_premium" : "2024-08-01 18:02:54",
+    "_end_of_premium" : "2040-08-01 18:02:54",
     "end_of_premium" : 1722535374,
     "email" : "sultan1saas@gmail.com",
     "has_oauth" : true,
