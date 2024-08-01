@@ -34,8 +34,8 @@ hostname=api.revenuecat.com
 // ========= 动态ID ========= //
 const mapping = {
   'SleepMaster/': ['pro','com.tk.client.lifetime''],
-  'SleepMaster/': ['pro','com.tk.client.lifetime'],
-  'SleepMaster/': ['pro','com.tk.client.lifetime'],
+  'SleepMaster/': ['$rc_annual','no_ads_v1_1yr_ar_full'],
+  'jodel/': ['pro','com.tk.client.lifetime'],
   'SleepMaster/': ['pro','com.tk.client.lifetime'],
   'ScreenRecordCase/': ['Premium'],
   'Chronicling/': ['Premium'],
