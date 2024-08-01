@@ -39,7 +39,7 @@ const mapping = {
   'SleepMaster/': ['pro','com.tk.client.lifetime'],
   'SleepMaster/': ['no_ads','no_ads_v1_1mo_ar_full'],
   'SleepMaster/': ['jodel_premium','no_ads_v1_1mo_ar_full'],
-  'Yosum/': ['Premium'],
+  'incognito/': ['annual', id: 'com.overdesigned.ShareBear.AnnualSubscription'],
   'Currency-Converter/': ['pro'],
   'Precious/': ['Pro'],
   'Unfold/': ['PRO'],
