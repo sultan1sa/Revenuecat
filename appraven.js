@@ -66,7 +66,7 @@ if (typeof $response == "undefined") {
     'atomic':{ name: 'plus', id: 'PlusYearly'},//练就
     'invog':{ name: 'Unlock', id: 'com.overdesigned.incognito.lifetime'},//8.1
     'jodel':{ name: 'jodel_premium', id: 'no_ads_v1_1mo_ar_full'},
-    'teak':{ name: 'pro_lt', id: 'com.tk.client.lifetime'},//7.23
+    'teak':{ name: 'pro', id: 'com.tk.client.lifetime'},//7.23
     'chat':{ name: 'premium', id: 'cu_premium_yearly'},//7.14
     'Scale%20Finder':{ name: 'Pro', id: 'sf_2999_1y_1w0'},//7.14
     'Who%20Stalks':{ name: 'Premium', id: 'ws_999_1m'},//7.14
