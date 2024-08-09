@@ -8,7 +8,7 @@ const list = {
     
 		'Mizframa': { eKey: 'plus', pID: 'PlusYearly' },
     
-		'NumbNow': { eKey: 'pro', pID: 'yearly' },
+		'NumbNow': { eKey: 'pro', pID: 'com.MattSutton.FlairLifetime' },
     
 		'Clipboard': { eKey: 'jodel_premium', pID: 'no_ads_v1_1mo_ar_full' },
     
