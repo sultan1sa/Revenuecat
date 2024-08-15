@@ -21,7 +21,7 @@ const chxm1023 = {};
 const chxm1024 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 
 const name = "premium";
-const appid = "yearly";
+const appid = "yearly_discounted";
 
 if (typeof $response == "undefined") {
   delete $request.headers["x-revenuecat-etag"];
