@@ -23,8 +23,8 @@ hostname = api.revenuecat.com
 const chxm1023 = {};
 const chxm1024 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 
-const name = "unlock";
-const appid = "com.overdesigned.incognito.lifetime";
+const name = "annual";
+const appid = "com.overdesigned.ShareBear.AnnualSubscription";
 
 if (typeof $response == "undefined") {
   delete $request.headers["x-revenuecat-etag"];
