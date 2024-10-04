@@ -24,9 +24,6 @@ hostname = api.alohaprofile.com
     "email_verified" : true,
     "_end_of_premium" : "2040-08-01 18:02:54",
     "end_of_premium" : 1722535374,
-    "email" : "sultan1saas@gmail.com",
-    "has_oauth" : true,
-    "token" : "fad33d7908652a21c69913dad0050c04",
     "can_mint" : false
   },
   "error" : null
