@@ -1,0 +1,23 @@
+#!name=All In One
+#!desc=local
+
+[Rule]
+AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,UDP)),REJECT
+AND,((DOMAIN,youtubei.googleapis.com),(PROTOCOL,UDP)),REJECT
+
+[URL Rewrite]
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-dict
+
+[Script]
+#hostname = api.revenuecat.com
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://github.com/osinx/Script/raw/refs/heads/main/vip/revenuecat.js, requires-body=true, max-size=-1, timeout=60
+
+deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/DungHoang120401/Nobita/Module/LKG_delete_header.js, timeout=60
+
+#************************************#
+replaceHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/subscribers\/[^/]+/(offerings|attributes)$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-header.js, timeout=30, argument=(%5Cr%5Cn)X-RevenueCat-ETag%3A.%2B(%5Cr%5Cn)-%3E%241X-RevenueCat-ETag%3A%242
+
+replaceHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-header.js, timeout=30, argument=(%5Cr%5Cn)X-RevenueCat-ETag%3A.%2B(%5Cr%5Cn)-%3E%241X-RevenueCat-ETag%3A%242
+
+[MITM]
+hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com, api.revenuecat.com
